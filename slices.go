@@ -34,8 +34,10 @@ func main() {
 
 	fmt.Printf("slc_2 len:%d cap:%d \n", len(slc_2), cap(slc_2))
 
-	// If we dont give any capacity value when defining slice , it takes deafult capacity . Default capacity is 2 in the golang
-	slc_3 = make([]int, 0)
+	// it s wrong !!!
+	// If we dont give any capacity value when defining slice  and append a value to  the slice, it takes deafult capacity . Default capacity is 2 in the golang
+	slc_3 := make([]int, 0)
+	slc_3 = append(slc_3, 0)
 	fmt.Printf("slc_3 len:%d cap:%d \n", len(slc_3), cap(slc_3))
 
 }
