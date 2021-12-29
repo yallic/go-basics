@@ -5,7 +5,7 @@ import "fmt"
 const sabit_1 = "sabit 1"
 
 
-// birden fazla const olduğunda aşağıdaki gibi süslü parantezle yaoabiliriz
+// birden fazla const oldugunda asagıdaki gibi suslu parantezle yaoabiliriz
 const {
 
 	sabit_2 = "sabit 2"
@@ -14,7 +14,7 @@ const {
 }
 
 
-// constlar sıralı şekilde artan değerlerse  iota kullanılıyor ve değerler birer birer artıyor
+// constlar sıralı sekilde artan degerlerse  iota kullanılıyor ve degerler birer birer artıyor
 const {
 
 	sabit_4 = iota
